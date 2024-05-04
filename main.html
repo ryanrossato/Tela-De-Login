@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css/style.css">
+    <script src="config/config.js"></script>
+
+
+    <title>Página de Login</title>
+</head>
+<body>
+    <h1>TELA DE LOGIN</h1>
+
+    <br>
+    <div>
+<label>Usuário: </label>
+<input type="text" placeholder="Digite aqui" id="usuario" size="10">
+<br>
+</br>
+<label>Senha: </label>
+<input oninput="transformarParaAsteriscos(this)" placeholder="Digite aqui" type="text" id="senha" size="18">
+<br>
+</br>
+<button onclick="redirecionar()" type="submit" id="entrar">ENTRAR</button>
+</div>
+
+</body>
+</html>

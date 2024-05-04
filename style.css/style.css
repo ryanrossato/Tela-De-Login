@@ -1,0 +1,45 @@
+label{
+    font-weight: bold;
+    font-size: 35px;
+}
+input{
+    width: 300px; /* largura desejada */
+    height: 40px; /* altura desejada */
+    border: solid 2px;
+    border-radius: 25px;
+    font-size: larger;
+    font-weight: 100px;
+}
+div{
+    position: absolute; /* Posicionamento absoluto */
+    top: 50%; /* 50% do topo */
+    left: 50%; /* 50% da esquerda */
+    transform: translate(-50%, -50%); /* Translada a div de volta -50% do seu próprio tamanho em ambas as direções */
+}
+h1{
+    position: absolute; /* Posicionamento absoluto */
+    top: 5%; /* 50% do topo */
+    left: 50%; /* 50% da esquerda */
+    transform: translate(-50%, -50%); /* Translada a div de volta -50% do seu próprio tamanho em ambas as direções */
+}
+
+button{
+    position: absolute; /* Posicionamento absoluto */
+    top: 120%; /* 120% do topo */
+    left: 50%; /* 50% da esquerda */
+    transform: translate(-50%, -50%); /* Translada a div de volta -50% do seu próprio tamanho em ambas as direções */
+    font-size: 30px;
+}
+h2{
+    position: absolute; /* Posicionamento absoluto */
+    top: 50%; /* 50% do topo */
+    left: 50%; /* 50% da esquerda */
+    transform: translate(-50%, -50%); /* Translada a div de volta -50% do seu próprio tamanho em ambas as direções */
+}
+
+#voltar{
+    position: absolute; /* Posicionamento absoluto */
+    top: 70%; /* 50% do topo */
+    left: 50%; /* 50% da esquerda */
+    transform: translate(-50%, -50%); /* Translada a div de volta -50% do seu próprio tamanho em ambas as direções */
+}
